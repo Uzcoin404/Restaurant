@@ -1,0 +1,19 @@
+.footer{
+    min-height: 240px;
+    background: url('../../assets/img/footer.jpg') no-repeat center / cover;
+    color: #fff;
+    padding-top: 36px;
+    padding-bottom: 16px;
+    .MuiContainer-root{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        flex-wrap: wrap;
+        column-gap: 36px;
+        row-gap: 24px;
+    }
+    &__logo{
+        width: 150px;
+        height: 80px;
+    }
+}
