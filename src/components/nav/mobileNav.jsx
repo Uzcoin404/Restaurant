@@ -58,7 +58,7 @@ export default function MobileNav() {
                 </Toolbar>
                 <List>
                     {pages.map((config, i) => (
-                        <ListItem button onClick={() => dispatch(menuClose())}>
+                        <ListItem key={i} button onClick={() => dispatch(menuClose())}>
                             <ListItemText primary={config.name} />
                         </ListItem>
                     ))}
